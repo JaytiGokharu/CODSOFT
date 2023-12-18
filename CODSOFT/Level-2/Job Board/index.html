@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Poppins&family=Roboto+Slab:wght@400;500&display=swap" rel="stylesheet">
+    <title>Job Board Website</title>
+</head> 
+<body>
+    <div class="sidebar">
+        <h1 class="logo">JobsPlace</h1>
+        <div class="menus">
+            <a href="#"><ion-icon name="home-outline"></ion-icon> Home </a>
+            <a href="#"><ion-icon name="newspaper-outline"></ion-icon> Find Jobs </a>
+            <a href="#"><ion-icon name="stats-chart-outline"></ion-icon> Performance </a>
+            <a href="#"><ion-icon name="bookmarks-outline"></ion-icon> Bookmarks </a>
+            <a href="#"><ion-icon name="mail-unread-outline"></ion-icon> Message </a>
+            <a href="#"><ion-icon name="settings-outline"></ion-icon> Settings </a>
+        </div>
+        <div class="profile">
+            <img class="profile-img" src="images/">
+            <div class="profile-name">
+                <h4>Jayti Gokharu</h4>
+                <p>Full-Stack Developer</p>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main-header">
+            <ion-icon class="menu-bar" name="menu-outline"></ion-icon>
+            <div class="search">
+                <input type="text" placeholder="Search your best job here...">
+                <button class="btn-search"><ion-icon name="search-outline"></ion-icon></button>
+            </div>
+        </div>
+        <div class="filter-wrapper">
+            <p>Recommendations</p>
+            <div class="filter">
+                <button class="btn-filter">Frontend Developer</button>
+                <button class="btn-filter">Backend Developer</button>
+                <button class="btn-filter">React JS</button>
+                <button class="btn-filter">MongoDB</button>
+                <button class="btn-filter">Full-Stack Developer</button>
+            </div>
+            <div class="sort">
+                <p>Sort</p>
+                <div class="sort-list">
+                    <select>
+                        <option value="0">All</option>
+                        <option value="1">Newest Post</option>
+                        <option value="0">Oldest Post</option>
+                        <option value="0">Most Relevant</option>
+                        <option value="0">Highest Paid</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="card">
+            <div class="card-left blue-bg">
+                <img src="images/google.jpeg">
+            </div>
+            <div class="card-center">
+                <h3>Google</h3>
+                <p class="card-detail">Data Science, Data Engineer </p>
+                <p class="card-loc"><ion-icon name="location-outline"></ion-icon> Mumbai </p>
+                <div class="card-sub">
+                    <p><ion-icon name="today-outline"></ion-icon> 1mins ago </p>
+                    <p><ion-icon name="hourglass-outline"></ion-icon> Full-time </p>
+                    <p><ion-icon name="people-outline"></ion-icon>200 applicants </p>
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="card-tag">
+                    <h5>Divisions</h5>
+                    <a href="#">Data Engineer</a>
+                </div>
+                <div class="card-salary">
+                    <p><b>$350k</b> <span>/year</span> </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+                <div class="card-left yellow-bg">
+                    <img src="images/Instagram.png">
+                </div>
+                <div class="card-center">
+                <h3>Instagram</h3>
+                <p class="card-detail">Data Analyst, Product Analyst </p>
+                <p class="card-loc"><ion-icon name="location-outline"></ion-icon> Chennai </p>
+                <div class="card-sub">
+                    <p><ion-icon name="today-outline"></ion-icon> 30 mins ago </p>
+                    <p><ion-icon name="hourglass-outline"></ion-icon> Part-time </p>
+                    <p><ion-icon name="people-outline"></ion-icon>100 applicants </p>
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="card-tag">
+                    <h5>Divisions</h5>
+                    <a href="#">Data Science</a>
+                </div>
+                <div class="card-salary">
+                    <p><b>$350k</b> <span>/year</span> </p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-left red-bg">
+                <img src="images/Youtube.png">
+            </div>
+            <div class="card-center">
+                <h3>Youtube</h3>
+                <p class="card-detail">Data Science, Data Engineer </p>
+                <p class="card-loc"><ion-icon name="location-outline"></ion-icon> Mumbai </p>
+                <div class="card-sub">
+                    <p><ion-icon name="today-outline"></ion-icon> 1hr ago </p>
+                    <p><ion-icon name="hourglass-outline"></ion-icon> Full-time </p>
+                    <p><ion-icon name="people-outline"></ion-icon>300 applicants </p>
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="card-tag">
+                    <h5>Divisions</h5>
+                    <a href="#">Data Engineer</a>
+                </div>
+                <div class="card-salary">
+                    <p><b>$350k</b> <span>/year</span> </p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-left purple-bg">
+                <img src="images/apple.png.crdownload">
+            </div>
+            <div class="card-center">
+                <h3>Apple</h3>
+                <p class="card-detail">UI/UX Designer </p>
+                <p class="card-loc"><ion-icon name="location-outline"></ion-icon> Mumbai </p>
+                <div class="card-sub">
+                    <p><ion-icon name="today-outline"></ion-icon> 45 mins ago </p>
+                    <p><ion-icon name="hourglass-outline"></ion-icon> Part-time </p>
+                    <p><ion-icon name="people-outline"></ion-icon>50 applicants </p>
+                </div>
+            </div>
+            <div class="card-right">
+                <div class="card-tag">
+                    <h5>Divisions</h5>
+                    <a href="#">Engineer, Product</a>
+                </div>
+                <div class="card-salary">
+                    <p><b>$485k</b> <span>/year</span> </p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-left yellow-bg">
+                <img src="images/amazon.jpg">
+            </div>
+            <div class="card-center">
+            <h3>Amazon</h3>
+            <p class="card-detail">Customer Care </p>
+            <p class="card-loc"><ion-icon name="location-outline"></ion-icon> Chennai </p>
+            <div class="card-sub">
+                <p><ion-icon name="today-outline"></ion-icon> 2 hour ago </p>
+                <p><ion-icon name="hourglass-outline"></ion-icon> Full-time </p>
+                <p><ion-icon name="people-outline"></ion-icon>200 applicants </p>
+            </div>
+        </div>
+        <div class="card-right">
+            <div class="card-tag">
+                <h5>Divisions</h5>
+                <a href="#">Customer area</a>
+            </div>
+            <div class="card-salary">
+                <p><b>$150k</b> <span>/year</span> </p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- <div class="detail">
+        <ion-icon class="detail" name="close-detail"></ion-icon>
+        <div class="detail-header">
+            <img src="images/google.jpeg">
+            <h2>Google</h2>
+            <p>Data science</p>
+        </div>
+        <hr class="divider">
+        <div class="detail-des">
+            <div class="about">
+                <h4>About Company</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, aliquam!</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </div> -->
+      
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="app.js"></script>
+</html>

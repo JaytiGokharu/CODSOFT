@@ -1,0 +1,311 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b5cca4679f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="">
+                <ul id ="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Jayti</span><br> Gokharu From India</h1>
+            </div>
+        </div>
+    </div>
+    <!----------about--------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/Images/Image1.jpeg" width="400" height="400" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, impedit deserunt amet cumque cupiditate nisi rem quasi voluptas, necessitatibus modi voluptatem corporis magnam error explicabo sint in debitis adipisci, consequuntur laudantium. Nesciunt natus laboriosam iste iusto ipsam illo adipisci, atque similique eaque quibusdam sed aut minus at voluptates dignissimos ullam!</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links active-link"  onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links active-link"  onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</span></li>
+                        <li><span>Web Development</span><br>Web app Development</span></li>
+                        <li><span>App Development</span><br>Building Android/iOS application</span></li>
+                    </ul>
+                </div>
+                <!------- <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</span></li>
+                        <li><span>Web Development</span><br>Web app Development</span></li>
+                        <li><span>App Development</span><br>Building Android/iOS application</span></li>
+                    </ul>
+                </div> ----->
+                <div class="tab-contents active tab" id="education">
+                    <ul>
+                        <li><span>2017</span><br>10th RBSE Board with 88.83%</li>
+                        <li><span>2019</span><br>12th RBSE Board With 87%</li>
+                        <li><span>2020-24</span><br>Pursuing B.Tech</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!---------------services---------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus laboriosam aspernatur repudiandae nemo officiis ab officia unde dolore iure nulla!</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus laboriosam aspernatur repudiandae nemo officiis ab officia unde dolore iure nulla!</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-js"></i>
+                    <h2>ReactJS</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus laboriosam aspernatur repudiandae nemo officiis ab officia unde dolore iure nulla!</p>
+                    <a href="#">learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!-- portfolio section  -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="/Images/avatar.jpg " width="80" height="400" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>I message</h4>
+                    <p>end-to-end encrypted personal based chatroom web-application using socket.io</p>
+                    <a href="#"><i class='bx bx-plus-medical'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="/Images/check.jpeg" width="80" height="400" alt="">
+                <div class="portfolio-layer">
+                    <h4>Calculator</h4>
+                    <p>Scientic Calculator using html, css and JAVASCRIPT</p>
+                    <a href="#"><i class='bx bx-plus-medical'></i></a>
+                </div>
+            </div>
+            <!-- <div class="portfolio-box">
+                <img src="/img/family-2073602_1280.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>WEB Design</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, ut.</p>
+                    <a href="#"><i class='bx bx-plus-medical'></i></a>
+                </div>
+            </div> -->
+            <div class="portfolio-box">
+                <img src="/Images/Image1.jpeg" width="80" height="400" alt="">
+                <div class="portfolio-layer">
+                    <h4>Soul bound confessions</h4>
+                    <p>Web application to cure mental health illness.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- testimonial section -->
+    <div class="testimonial-container">
+        <h2 class="heading">MY <span>Socials</span></h2>
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="Images/Image2.jpeg" alt="">
+                        <i class='bx bxl-linkedin-square' > </i>
+
+                        <h3>LinkedIn </h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, provident sit! Ad nemo earumaut temporibus voluptatibus corporis amet veniam consequuntur neque eligendi voluptatem
+                            reprehenderit necessitatibus labore fugiat quam doloribus facilis ipsa accusamus debitis
+                            aliquid quae, maiores animi pariatur vel.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+
+                        <img src="/Images/Image2.jpeg" alt="">
+                        <i class='bx bxl-twitter' ></i>
+                        <h3>Twitter</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, provident sit! Ad nemo earum
+                            aut temporibus voluptatibus corporis amet veniam consequuntur neque eligendi voluptatem
+                            reprehenderit necessitatibus labore fugiat quam doloribus facilis ipsa accusamus debitis
+                            aliquid quae, maiores animi pariatur vel.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="/Images/Image2.jpeg" alt="">
+                        <i class='bx bxl-github' ></i>
+                        <h3>Github</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, provident sit! Ad nemo earum
+                            aut temporibus voluptatibus corporis amet veniam consequuntur neque eligendi voluptatem
+                            reprehenderit necessitatibus labore fugiat quam doloribus facilis ipsa accusamus debitis
+                            aliquid quae, maiores animi pariatur vel.</p>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-scrollbar"></div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </div>
+    </div>
+    
+    <!-- ------------portfolio---------
+    <div id="portfolio">
+        <div id="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>   
+                    </div>
+                    <div class="work">
+                        <img src="">
+                        <div class="layer">
+                            <h3></h3>
+                            <p></p>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="">
+                        <div class="layer">
+                            <h3></h3>
+                            <p></p>
+                            <a href="#"></a>
+                        </div>   
+                    </div>
+                    <div class="work">
+                        <img src="">
+                        <div class="layer">
+                            <h3></h3>
+                            <p></p>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div> -->
+
+    <!-----------------contact------------->
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>contact@example.com</p>
+                    <p>0123456789</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Ypur Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                    <span id="msg">Hello</span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright Jayti <ion-icon name="heart"></ion-icon> </p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementByClassName("tab-links");
+        var tabcontents = document.getElementByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link"); 
+            document.getElementById(tabname.classList.add("active-tab"));  
+
+        }
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+
+    </script>
+    <script>
+        const scriptURL = '<SCRIPT URL>'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset( )
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
